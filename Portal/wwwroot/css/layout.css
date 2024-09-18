@@ -1,0 +1,155 @@
+/* Navbar stil ayarları */
+.header {
+    border-top: 1px solid green;
+    /* border-bottom: 2px solid green; */
+}
+
+
+
+/* Header'deki yazı ve ikonları turuncu yapma */
+.header .nav-link, 
+.header .logo span,
+.header .toggle-sidebar-btn,
+.header .search-bar .bi-search,
+.header .nav-profile .dropdown-toggle,
+.header .nav-item .bi {
+    color: green !important; /* Yazı ve ikon rengi turuncu */
+    
+   
+}
+
+/* Profil dropdown menüsü ikonları için stil */
+.dropdown-menu.profile .dropdown-item i {
+    color: green !important; /* Profil dropdown menüsü ikon rengi turuncu */
+}
+
+/* Profil dropdown menüsü yazıları için stil */
+.dropdown-menu.profile .dropdown-item span {
+    color: green !important; /* Profil dropdown menüsü yazı rengi turuncu */
+}
+
+/* Arama formu butonu turuncu yapma */
+.search-form button {
+    border: none !important;
+    color: #ffffff !important; /* Arama butonu ikon rengi beyaz */
+}
+
+/* Arama formu input stil ayarları */
+.search-form input {
+    border: 1px solid green !important; /* Arama kutusu sınır rengi turuncu */
+    color: green !important; /* Arama kutusu yazı rengi turuncu */
+}
+
+                    body {
+                    background-color: white !important; 
+                    display: flex;
+                    flex-direction: column;
+                    min-height: 100vh;
+                    margin: 0;
+                    padding-bottom: 60px; /* Footer'ın yüksekliği kadar alt boşluk bırakın */
+
+                }
+
+
+
+                .container {
+                    margin-bottom: 60px; /* Adjust based on the footer height */
+                }
+                #example {
+                background-color: white;
+            }
+            .header{
+
+            height: 68px; /* Navbar yüksekliği */
+            display: flex;
+            align-items: center;
+            padding: 0 20px; /* Navbar iç kenar boşlukları */
+            }
+            
+        /* Navbar'daki logo ve profil resminin yerleşimi */
+        .header .logo img {
+            height: 65px !important; /* Logonun yüksekliğini artırma */
+            width: 65px !important; /* Genişliği orijinal oranında tut */
+            display: block;
+            object-fit: contain; /* Görüntüyü orijinal oranlarında sığdırma */
+            padding: 0; /* Üstten ve alttan boşlukları kaldırma */
+            margin: 0; /* Üstten ve alttan boşlukları kaldırma */
+            max-height: 100%; /* Yüksekliği tam sığdır */
+        }
+
+        /* Profil resmini dairesel yapmak ve boyutunu artırmak */
+        .header .nav-profile img {
+            height: 55px !important; /* Profil resminin yüksekliğini artırma */
+            width: 55px !important; /* Genişliği de aynı oranda artırma */
+            border-radius: 50%; /* Profil resmini daire şeklinde gösterme */
+            object-fit: cover; /* Görüntüyü tam olarak sığdırma */
+            max-height: 100%; /* Yüksekliği tam sığdır */
+        }
+
+        /* Toggle ve Home ikonları */
+        .header .bi-list,
+        .header .bi-house {
+            color: green !important;
+
+            /* color: #ff8800; */
+            margin-right: 10px; /* Sağ tarafa boşluk ekleme */
+        }
+
+        /* Search bar butonunu turuncu yapma */
+        .header .search-bar button {
+            color: #ffffff; /* Buton yazı rengi */
+        } */
+        /* Profilim ve Şifre Değiştir yazılarını ve ikonlarını beyaz yapma, ikonları büyütme */
+        .nav-content li a span {
+            color: #ffffff !important; /* Yazı rengi beyaz */
+        }
+
+        .nav-content li a i {
+            color: #ffffff !important; /* İkon rengi beyaz */
+            font-size: 1.2em !important; /* İkon boyutunu büyüt */
+            margin-right: 8px; /* Yazı ile ikon arasına boşluk ekle */
+        }
+
+        .footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            height: 60px;
+            background-color: white; /* Footer arka plan rengini isteğinize göre ayarlayın */
+            text-align: center;
+            padding: 10px 0;
+            z-index: 1000; /* Footer'ın diğer öğelerin üzerinde durmasını sağlar */
+        }
+
+        .container {
+            flex: 1; /* İçerik alanını genişletmek için flex özelliği */
+        }
+        .back-to-top {
+            background-color: green !important; /* Arka plan rengi turuncu */
+            color: #ffffff !important; /* İkon rengi beyaz */
+            border-radius: 50%; /* Daire şeklinde yapma */
+            width: 40px; /* Buton genişliği */
+            height: 40px; /* Buton yüksekliği */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Hafif gölge efekti */
+            transition: background-color 0.3s ease; /* Hover geçiş efekti */
+        }
+
+        .back-to-top i {
+            font-size: 1.5em; /* İkon boyutunu büyütme */
+        }
+
+        .back-to-top:hover {
+            background-color: #e07b00 !important; /* Hover sırasında daha koyu turuncu */
+        }
+
+        /* Profil menüsü yazı ve ikon renkleri */
+        .nav-content li a span {
+            color: #ffffff !important; /* Yazı rengi beyaz */
+        }
+
+        .nav-content li a i {
+            color: #ffffff !important; /* İkon rengi beyaz */
+        }

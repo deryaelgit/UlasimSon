@@ -1,0 +1,1457 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|d:\\users\\desktop\\p27\\portal23\\portal\\portal\\controllers\\genckart\\hikayecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|solutionrelative:controllers\\genckart\\hikayecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|d:\\users\\desktop\\p27\\portal23\\portal\\portal\\controllers\\genckart\\photogallerycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|solutionrelative:controllers\\genckart\\photogallerycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|d:\\users\\desktop\\p27\\portal23\\portal\\portal\\models\\gkmodels\\photogallery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|solutionrelative:models\\gkmodels\\photogallery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|d:\\users\\desktop\\p27\\portal23\\portal\\portal\\models\\gkmodels\\hikaye.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|solutionrelative:models\\gkmodels\\hikaye.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|d:\\users\\desktop\\p27\\portal23\\portal\\portal\\models\\gkmodels\\hikayesilmeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|solutionrelative:models\\gkmodels\\hikayesilmeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|d:\\users\\desktop\\p27\\portal23\\portal\\portal\\viewmodels\\gkviewmodels\\photogalleryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|solutionrelative:viewmodels\\gkviewmodels\\photogalleryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|d:\\users\\desktop\\p27\\portal23\\portal\\portal\\viewmodels\\gkviewmodels\\hikayeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|solutionrelative:viewmodels\\gkviewmodels\\hikayeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|d:\\users\\desktop\\p27\\portal23\\portal\\portal\\views\\hikaye\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|solutionrelative:views\\hikaye\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|d:\\users\\desktop\\p27\\portal23\\portal\\portal\\views\\photogallery\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|solutionrelative:views\\photogallery\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|d:\\users\\desktop\\p27\\portal23\\portal\\portal\\views\\photogallery\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|solutionrelative:views\\photogallery\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|d:\\users\\desktop\\p27\\portal23\\portal\\portal\\views\\hikaye\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|solutionrelative:views\\hikaye\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|d:\\users\\desktop\\p27\\portal23\\portal\\portal\\views\\photogallery\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|solutionrelative:views\\photogallery\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|d:\\users\\desktop\\p27\\portal23\\portal\\portal\\views\\hikaye\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|solutionrelative:views\\hikaye\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|d:\\users\\desktop\\p27\\portal23\\portal\\portal\\views\\photogallery\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|solutionrelative:views\\photogallery\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|d:\\users\\desktop\\p27\\portal23\\portal\\portal\\views\\hikaye\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|solutionrelative:views\\hikaye\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|d:\\users\\desktop\\p27\\portal23\\portal\\portal\\views\\photogallery\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|solutionrelative:views\\photogallery\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|d:\\users\\desktop\\p27\\portal23\\portal\\portal\\views\\hikaye\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|solutionrelative:views\\hikaye\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|d:\\users\\desktop\\p27\\portal23\\portal\\portal\\controllers\\admin\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|solutionrelative:controllers\\admin\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|d:\\users\\desktop\\p27\\portal23\\portal\\portal\\controllers\\genckart\\denemecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|solutionrelative:controllers\\genckart\\denemecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|d:\\users\\desktop\\p27\\portal23\\portal\\portal\\views\\deneme\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|solutionrelative:views\\deneme\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|d:\\users\\desktop\\p27\\portal23\\portal\\portal\\viewmodels\\profileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|solutionrelative:viewmodels\\profileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|d:\\users\\desktop\\p27\\portal23\\portal\\portal\\views\\profile\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|solutionrelative:views\\profile\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|d:\\users\\desktop\\p27\\portal23\\portal\\portal\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|solutionrelative:models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|d:\\users\\desktop\\p27\\portal23\\portal\\portal\\views\\trips\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|solutionrelative:views\\trips\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|d:\\users\\desktop\\p27\\portal23\\portal\\portal\\views\\userrole\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|solutionrelative:views\\userrole\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|d:\\users\\desktop\\p27\\portal23\\portal\\portal\\views\\userrole\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|solutionrelative:views\\userrole\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|d:\\users\\desktop\\p27\\portal23\\portal\\portal\\views\\trips\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|solutionrelative:views\\trips\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|d:\\users\\desktop\\p27\\portal23\\portal\\portal\\views\\trips\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|solutionrelative:views\\trips\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|d:\\users\\desktop\\p27\\portal23\\portal\\portal\\views\\trips\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|solutionrelative:views\\trips\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|d:\\users\\desktop\\p27\\portal23\\portal\\portal\\views\\tripparticipants\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|solutionrelative:views\\tripparticipants\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|d:\\users\\desktop\\p27\\portal23\\portal\\portal\\views\\tripparticipants\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|solutionrelative:views\\tripparticipants\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|d:\\users\\desktop\\p27\\portal23\\portal\\portal\\views\\tripparticipants\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|solutionrelative:views\\tripparticipants\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|d:\\users\\desktop\\p27\\portal23\\portal\\portal\\views\\tripparticipants\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|solutionrelative:views\\tripparticipants\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|d:\\users\\desktop\\p27\\portal23\\portal\\portal\\views\\tesisyonetimi\\sil.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|solutionrelative:views\\tesisyonetimi\\sil.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|d:\\users\\desktop\\p27\\portal23\\portal\\portal\\views\\tesisyonetimi\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|solutionrelative:views\\tesisyonetimi\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|d:\\users\\desktop\\p27\\portal23\\portal\\portal\\views\\tesisyonetimi\\ekle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|solutionrelative:views\\tesisyonetimi\\ekle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|d:\\users\\desktop\\p27\\portal23\\portal\\portal\\views\\tesisyonetimi\\duzenle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|solutionrelative:views\\tesisyonetimi\\duzenle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|d:\\users\\desktop\\p27\\portal23\\portal\\portal\\views\\tesisqrkodyonetimi\\sil.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|solutionrelative:views\\tesisqrkodyonetimi\\sil.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|d:\\users\\desktop\\p27\\portal23\\portal\\portal\\views\\tesisqrkodyonetimi\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|solutionrelative:views\\tesisqrkodyonetimi\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|d:\\users\\desktop\\p27\\portal23\\portal\\portal\\views\\tesisqrkodyonetimi\\ekle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|solutionrelative:views\\tesisqrkodyonetimi\\ekle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|d:\\users\\desktop\\p27\\portal23\\portal\\portal\\views\\tesisqrkodyonetimi\\duzenle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|solutionrelative:views\\tesisqrkodyonetimi\\duzenle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|d:\\users\\desktop\\p27\\portal23\\portal\\portal\\views\\role\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|solutionrelative:views\\role\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|d:\\users\\desktop\\p27\\portal23\\portal\\portal\\views\\role\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|solutionrelative:views\\role\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|d:\\users\\desktop\\p27\\portal23\\portal\\portal\\views\\role\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|solutionrelative:views\\role\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|d:\\users\\desktop\\p27\\portal23\\portal\\portal\\views\\role\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|solutionrelative:views\\role\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|d:\\users\\desktop\\p27\\portal23\\portal\\portal\\views\\qrcodescan\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|solutionrelative:views\\qrcodescan\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|d:\\users\\desktop\\p27\\portal23\\portal\\portal\\views\\qrcodescan\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|solutionrelative:views\\qrcodescan\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|d:\\users\\desktop\\p27\\portal23\\portal\\portal\\views\\qrcodescan\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|solutionrelative:views\\qrcodescan\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|d:\\users\\desktop\\p27\\portal23\\portal\\portal\\views\\qrcodescan\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|solutionrelative:views\\qrcodescan\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|d:\\users\\desktop\\p27\\portal23\\portal\\portal\\views\\pointsredemption\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|solutionrelative:views\\pointsredemption\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|d:\\users\\desktop\\p27\\portal23\\portal\\portal\\views\\pointsredemption\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|solutionrelative:views\\pointsredemption\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|d:\\users\\desktop\\p27\\portal23\\portal\\portal\\views\\pointslog\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|solutionrelative:views\\pointslog\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|d:\\users\\desktop\\p27\\portal23\\portal\\portal\\views\\pointslog\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|solutionrelative:views\\pointslog\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|d:\\users\\desktop\\p27\\portal23\\portal\\portal\\views\\pointslog\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|solutionrelative:views\\pointslog\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|d:\\users\\desktop\\p27\\portal23\\portal\\portal\\views\\pointslog\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|solutionrelative:views\\pointslog\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|d:\\users\\desktop\\p27\\portal23\\portal\\portal\\views\\kullaniciyonetimi\\adduser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|solutionrelative:views\\kullaniciyonetimi\\adduser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|d:\\users\\desktop\\p27\\portal23\\portal\\portal\\views\\kullaniciyonetimi\\deleteuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|solutionrelative:views\\kullaniciyonetimi\\deleteuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|d:\\users\\desktop\\p27\\portal23\\portal\\portal\\views\\kullaniciyonetimi\\edituser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|solutionrelative:views\\kullaniciyonetimi\\edituser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|d:\\users\\desktop\\p27\\portal23\\portal\\portal\\views\\kullaniciyonetimi\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|solutionrelative:views\\kullaniciyonetimi\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|d:\\users\\desktop\\p27\\portal23\\portal\\portal\\views\\kullaniciyonetimi\\listusers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|solutionrelative:views\\kullaniciyonetimi\\listusers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|d:\\users\\desktop\\p27\\portal23\\portal\\portal\\views\\gifts\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|solutionrelative:views\\gifts\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|d:\\users\\desktop\\p27\\portal23\\portal\\portal\\views\\gifts\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|solutionrelative:views\\gifts\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|d:\\users\\desktop\\p27\\portal23\\portal\\portal\\views\\gifts\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|solutionrelative:views\\gifts\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|d:\\users\\desktop\\p27\\portal23\\portal\\portal\\views\\gifts\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|solutionrelative:views\\gifts\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|d:\\users\\desktop\\p27\\portal23\\portal\\portal\\views\\formsubmissions\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|solutionrelative:views\\formsubmissions\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|d:\\users\\desktop\\p27\\portal23\\portal\\portal\\views\\eventsmanagement\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|solutionrelative:views\\eventsmanagement\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|d:\\users\\desktop\\p27\\portal23\\portal\\portal\\views\\forms\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|solutionrelative:views\\forms\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|d:\\users\\desktop\\p27\\portal23\\portal\\portal\\views\\formsubmissions\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|solutionrelative:views\\formsubmissions\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|d:\\users\\desktop\\p27\\portal23\\portal\\portal\\helpers\\menuhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|solutionrelative:helpers\\menuhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|d:\\users\\desktop\\p27\\portal23\\portal\\portal\\views\\forms\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|solutionrelative:views\\forms\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|d:\\users\\desktop\\p27\\portal23\\portal\\portal\\views\\forms\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|solutionrelative:views\\forms\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|d:\\users\\desktop\\p27\\portal23\\portal\\portal\\views\\forms\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|solutionrelative:views\\forms\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|d:\\users\\desktop\\p27\\portal23\\portal\\portal\\views\\eventsmanagement\\manageqrcodes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|solutionrelative:views\\eventsmanagement\\manageqrcodes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|d:\\users\\desktop\\p27\\portal23\\portal\\portal\\views\\eventsmanagement\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|solutionrelative:views\\eventsmanagement\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|d:\\users\\desktop\\p27\\portal23\\portal\\portal\\views\\eventsmanagement\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|solutionrelative:views\\eventsmanagement\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|d:\\users\\desktop\\p27\\portal23\\portal\\portal\\views\\eventsmanagement\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|solutionrelative:views\\eventsmanagement\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|d:\\users\\desktop\\p27\\portal23\\portal\\portal\\views\\etkinlikkatilimciyonetimi\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|solutionrelative:views\\etkinlikkatilimciyonetimi\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|d:\\users\\desktop\\p27\\portal23\\portal\\portal\\views\\etkinlikkatilimciyonetimi\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|solutionrelative:views\\etkinlikkatilimciyonetimi\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|d:\\users\\desktop\\p27\\portal23\\portal\\portal\\views\\etkinlikkatilimciyonetimi\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|solutionrelative:views\\etkinlikkatilimciyonetimi\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|d:\\users\\desktop\\p27\\portal23\\portal\\portal\\views\\categories\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|solutionrelative:views\\categories\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|d:\\users\\desktop\\p27\\portal23\\portal\\portal\\views\\categories\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|solutionrelative:views\\categories\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|d:\\users\\desktop\\p27\\portal23\\portal\\portal\\views\\categories\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|solutionrelative:views\\categories\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|d:\\users\\desktop\\p27\\portal23\\portal\\portal\\views\\blogs\\sil.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|solutionrelative:views\\blogs\\sil.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|d:\\users\\desktop\\p27\\portal23\\portal\\portal\\views\\blogs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|solutionrelative:views\\blogs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|d:\\users\\desktop\\p27\\portal23\\portal\\portal\\views\\blogs\\ekle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|solutionrelative:views\\blogs\\ekle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|d:\\users\\desktop\\p27\\portal23\\portal\\portal\\views\\blogs\\duzenle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|solutionrelative:views\\blogs\\duzenle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|d:\\users\\desktop\\p27\\portal23\\portal\\portal\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|solutionrelative:views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|d:\\users\\desktop\\p27\\portal23\\portal\\portal\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BF3995D6-6BDE-47E6-9AFA-D420534087F0}|Portal.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HikayeSilmeService.cs",
+              "DocumentMoniker": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Models\\GKModels\\HikayeSilmeService.cs",
+              "RelativeDocumentMoniker": "Models\\GKModels\\HikayeSilmeService.cs",
+              "ToolTip": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Models\\GKModels\\HikayeSilmeService.cs",
+              "RelativeToolTip": "Models\\GKModels\\HikayeSilmeService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T06:36:54.293Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HikayeViewModel.cs",
+              "DocumentMoniker": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\ViewModels\\GKViewModels\\HikayeViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\GKViewModels\\HikayeViewModel.cs",
+              "ToolTip": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\ViewModels\\GKViewModels\\HikayeViewModel.cs",
+              "RelativeToolTip": "ViewModels\\GKViewModels\\HikayeViewModel.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T06:32:02.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PhotoGalleryController.cs",
+              "DocumentMoniker": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Controllers\\GencKart\\PhotoGalleryController.cs",
+              "RelativeDocumentMoniker": "Controllers\\GencKart\\PhotoGalleryController.cs",
+              "ToolTip": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Controllers\\GencKart\\PhotoGalleryController.cs",
+              "RelativeToolTip": "Controllers\\GencKart\\PhotoGalleryController.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAkwHMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T06:11:14.096Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PhotoGalleryViewModel.cs",
+              "DocumentMoniker": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\ViewModels\\GKViewModels\\PhotoGalleryViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\GKViewModels\\PhotoGalleryViewModel.cs",
+              "ToolTip": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\ViewModels\\GKViewModels\\PhotoGalleryViewModel.cs",
+              "RelativeToolTip": "ViewModels\\GKViewModels\\PhotoGalleryViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T12:58:13.519Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Hikaye.cs",
+              "DocumentMoniker": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Models\\GKModels\\Hikaye.cs",
+              "RelativeDocumentMoniker": "Models\\GKModels\\Hikaye.cs",
+              "ToolTip": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Models\\GKModels\\Hikaye.cs",
+              "RelativeToolTip": "Models\\GKModels\\Hikaye.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAgwBQAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T13:44:15.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HikayeController.cs",
+              "DocumentMoniker": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Controllers\\GencKart\\HikayeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\GencKart\\HikayeController.cs",
+              "ToolTip": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Controllers\\GencKart\\HikayeController.cs",
+              "RelativeToolTip": "Controllers\\GencKart\\HikayeController.cs",
+              "ViewState": "AQIAADsAAAAAAAAAAAAIwEIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T13:18:24.695Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PhotoGallery.cs",
+              "DocumentMoniker": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Models\\GKModels\\PhotoGallery.cs",
+              "RelativeDocumentMoniker": "Models\\GKModels\\PhotoGallery.cs",
+              "ToolTip": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Models\\GKModels\\PhotoGallery.cs",
+              "RelativeToolTip": "Models\\GKModels\\PhotoGallery.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T12:57:39.399Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\Hikaye\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Hikaye\\Create.cshtml",
+              "ToolTip": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\Hikaye\\Create.cshtml",
+              "RelativeToolTip": "Views\\Hikaye\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-04T05:39:18.861Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\PhotoGallery\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\PhotoGallery\\Create.cshtml",
+              "ToolTip": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\PhotoGallery\\Create.cshtml",
+              "RelativeToolTip": "Views\\PhotoGallery\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-03T13:39:41.427Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\PhotoGallery\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\PhotoGallery\\Delete.cshtml",
+              "ToolTip": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\PhotoGallery\\Delete.cshtml",
+              "RelativeToolTip": "Views\\PhotoGallery\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-04T05:59:31.991Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\Hikaye\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Hikaye\\Index.cshtml",
+              "ToolTip": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\Hikaye\\Index.cshtml",
+              "RelativeToolTip": "Views\\Hikaye\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC8AAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-04T05:44:04.558Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\PhotoGallery\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\PhotoGallery\\Index.cshtml",
+              "ToolTip": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\PhotoGallery\\Index.cshtml",
+              "RelativeToolTip": "Views\\PhotoGallery\\Index.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACIAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-03T13:03:35.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Models\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Models\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Models\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Models\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAA8BAAAAAAAAAADwvyMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T12:59:42.026Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\Hikaye\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Hikaye\\Edit.cshtml",
+              "ToolTip": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\Hikaye\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Hikaye\\Edit.cshtml",
+              "ViewState": "AQIAABkAAAAAAAAAAAAmwDIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-04T05:56:18.331Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\Hikaye\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Hikaye\\Details.cshtml",
+              "ToolTip": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\Hikaye\\Details.cshtml",
+              "RelativeToolTip": "Views\\Hikaye\\Details.cshtml",
+              "ViewState": "AQIAABEAAAAAAAAAAAAmwCMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-04T05:57:35.921Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\PhotoGallery\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\PhotoGallery\\Details.cshtml",
+              "ToolTip": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\PhotoGallery\\Details.cshtml",
+              "RelativeToolTip": "Views\\PhotoGallery\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-04T05:58:39.337Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\Hikaye\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Hikaye\\Delete.cshtml",
+              "ToolTip": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\Hikaye\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Hikaye\\Delete.cshtml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAcwC4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-04T05:58:49.01Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\PhotoGallery\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\PhotoGallery\\Edit.cshtml",
+              "ToolTip": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\PhotoGallery\\Edit.cshtml",
+              "RelativeToolTip": "Views\\PhotoGallery\\Edit.cshtml",
+              "ViewState": "AQIAADkAAAAAAAAAAAAmwCEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-03T13:40:05.54Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\Profile\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Profile\\Index.cshtml",
+              "ToolTip": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\Profile\\Index.cshtml",
+              "RelativeToolTip": "Views\\Profile\\Index.cshtml",
+              "ViewState": "AQIAACoBAAAAAAAAAAAAAD0BAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-03T13:02:15.049Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ProfileViewModel.cs",
+              "DocumentMoniker": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\ViewModels\\ProfileViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\ProfileViewModel.cs",
+              "ToolTip": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\ViewModels\\ProfileViewModel.cs",
+              "RelativeToolTip": "ViewModels\\ProfileViewModel.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAswCkAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T13:08:01.722Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "DenemeController.cs",
+              "DocumentMoniker": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Controllers\\GencKart\\DenemeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\GencKart\\DenemeController.cs",
+              "ToolTip": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Controllers\\GencKart\\DenemeController.cs",
+              "RelativeToolTip": "Controllers\\GencKart\\DenemeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T13:13:42.619Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ProfileController.cs",
+              "DocumentMoniker": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Controllers\\Admin\\ProfileController.cs",
+              "RelativeDocumentMoniker": "Controllers\\Admin\\ProfileController.cs",
+              "ToolTip": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Controllers\\Admin\\ProfileController.cs",
+              "RelativeToolTip": "Controllers\\Admin\\ProfileController.cs",
+              "ViewState": "AQIAAOAAAAAAAAAAAAAUwPkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T12:39:56.653Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\Deneme\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Deneme\\Index.cshtml",
+              "ToolTip": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\Deneme\\Index.cshtml",
+              "RelativeToolTip": "Views\\Deneme\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-03T13:14:03.204Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\Trips\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Trips\\Index.cshtml",
+              "ToolTip": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\Trips\\Index.cshtml",
+              "RelativeToolTip": "Views\\Trips\\Index.cshtml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAACoAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-08T13:35:25.533Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\UserRole\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\UserRole\\Index.cshtml",
+              "ToolTip": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\UserRole\\Index.cshtml",
+              "RelativeToolTip": "Views\\UserRole\\Index.cshtml",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAAC4AAACGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-08T13:31:00.069Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\UserRole\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\UserRole\\Edit.cshtml",
+              "ToolTip": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\UserRole\\Edit.cshtml",
+              "RelativeToolTip": "Views\\UserRole\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-08T13:30:13.597Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\Trips\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Trips\\Edit.cshtml",
+              "ToolTip": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\Trips\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Trips\\Edit.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACAAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-08T13:29:24.586Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\Trips\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Trips\\Delete.cshtml",
+              "ToolTip": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\Trips\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Trips\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-08T13:28:45.58Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\Trips\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Trips\\Create.cshtml",
+              "ToolTip": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\Trips\\Create.cshtml",
+              "RelativeToolTip": "Views\\Trips\\Create.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAB8AAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-08T13:28:03.438Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\TripParticipants\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\TripParticipants\\Index.cshtml",
+              "ToolTip": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\TripParticipants\\Index.cshtml",
+              "RelativeToolTip": "Views\\TripParticipants\\Index.cshtml",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAADIAAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-08T13:27:28.71Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\TripParticipants\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\TripParticipants\\Edit.cshtml",
+              "ToolTip": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\TripParticipants\\Edit.cshtml",
+              "RelativeToolTip": "Views\\TripParticipants\\Edit.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABoAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-08T13:26:43.168Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\TripParticipants\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\TripParticipants\\Delete.cshtml",
+              "ToolTip": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\TripParticipants\\Delete.cshtml",
+              "RelativeToolTip": "Views\\TripParticipants\\Delete.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAB8AAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-08T13:25:44.296Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\TripParticipants\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\TripParticipants\\Create.cshtml",
+              "ToolTip": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\TripParticipants\\Create.cshtml",
+              "RelativeToolTip": "Views\\TripParticipants\\Create.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACMAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-08T13:24:36.988Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Sil.cshtml",
+              "DocumentMoniker": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\TesisYonetimi\\Sil.cshtml",
+              "RelativeDocumentMoniker": "Views\\TesisYonetimi\\Sil.cshtml",
+              "ToolTip": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\TesisYonetimi\\Sil.cshtml",
+              "RelativeToolTip": "Views\\TesisYonetimi\\Sil.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABYAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-08T13:24:22.116Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\TesisYonetimi\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\TesisYonetimi\\Index.cshtml",
+              "ToolTip": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\TesisYonetimi\\Index.cshtml",
+              "RelativeToolTip": "Views\\TesisYonetimi\\Index.cshtml",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAABcAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-08T13:23:47.609Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Ekle.cshtml",
+              "DocumentMoniker": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\TesisYonetimi\\Ekle.cshtml",
+              "RelativeDocumentMoniker": "Views\\TesisYonetimi\\Ekle.cshtml",
+              "ToolTip": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\TesisYonetimi\\Ekle.cshtml",
+              "RelativeToolTip": "Views\\TesisYonetimi\\Ekle.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACIAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-08T13:23:24.579Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Duzenle.cshtml",
+              "DocumentMoniker": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\TesisYonetimi\\Duzenle.cshtml",
+              "RelativeDocumentMoniker": "Views\\TesisYonetimi\\Duzenle.cshtml",
+              "ToolTip": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\TesisYonetimi\\Duzenle.cshtml",
+              "RelativeToolTip": "Views\\TesisYonetimi\\Duzenle.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACIAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-08T13:23:03.423Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Sil.cshtml",
+              "DocumentMoniker": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\TesisQrKodYonetimi\\Sil.cshtml",
+              "RelativeDocumentMoniker": "Views\\TesisQrKodYonetimi\\Sil.cshtml",
+              "ToolTip": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\TesisQrKodYonetimi\\Sil.cshtml",
+              "RelativeToolTip": "Views\\TesisQrKodYonetimi\\Sil.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABgAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-08T13:22:49.821Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\TesisQrKodYonetimi\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\TesisQrKodYonetimi\\Index.cshtml",
+              "ToolTip": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\TesisQrKodYonetimi\\Index.cshtml",
+              "RelativeToolTip": "Views\\TesisQrKodYonetimi\\Index.cshtml",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAADcAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-08T13:22:20.281Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Ekle.cshtml",
+              "DocumentMoniker": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\TesisQrKodYonetimi\\Ekle.cshtml",
+              "RelativeDocumentMoniker": "Views\\TesisQrKodYonetimi\\Ekle.cshtml",
+              "ToolTip": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\TesisQrKodYonetimi\\Ekle.cshtml",
+              "RelativeToolTip": "Views\\TesisQrKodYonetimi\\Ekle.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACMAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-08T13:22:00.174Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Duzenle.cshtml",
+              "DocumentMoniker": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\TesisQrKodYonetimi\\Duzenle.cshtml",
+              "RelativeDocumentMoniker": "Views\\TesisQrKodYonetimi\\Duzenle.cshtml",
+              "ToolTip": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\TesisQrKodYonetimi\\Duzenle.cshtml",
+              "RelativeToolTip": "Views\\TesisQrKodYonetimi\\Duzenle.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-08T13:21:10.1Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\Role\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Role\\Index.cshtml",
+              "ToolTip": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\Role\\Index.cshtml",
+              "RelativeToolTip": "Views\\Role\\Index.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAABQAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-08T13:19:51.859Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\Role\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Role\\Edit.cshtml",
+              "ToolTip": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\Role\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Role\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC4AAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-08T13:19:14.739Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\Role\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Role\\Create.cshtml",
+              "ToolTip": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\Role\\Create.cshtml",
+              "RelativeToolTip": "Views\\Role\\Create.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAsAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-08T13:18:45.064Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "AccessDenied.cshtml",
+              "DocumentMoniker": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\Role\\AccessDenied.cshtml",
+              "RelativeDocumentMoniker": "Views\\Role\\AccessDenied.cshtml",
+              "ToolTip": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\Role\\AccessDenied.cshtml",
+              "RelativeToolTip": "Views\\Role\\AccessDenied.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-08T13:18:03.275Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\QrCodeScan\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\QrCodeScan\\Index.cshtml",
+              "ToolTip": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\QrCodeScan\\Index.cshtml",
+              "RelativeToolTip": "Views\\QrCodeScan\\Index.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABkAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-08T13:17:17.564Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\QrCodeScan\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\QrCodeScan\\Edit.cshtml",
+              "ToolTip": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\QrCodeScan\\Edit.cshtml",
+              "RelativeToolTip": "Views\\QrCodeScan\\Edit.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACQAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-08T13:16:31.504Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\QrCodeScan\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\QrCodeScan\\Delete.cshtml",
+              "ToolTip": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\QrCodeScan\\Delete.cshtml",
+              "RelativeToolTip": "Views\\QrCodeScan\\Delete.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-08T13:16:09.973Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\QrCodeScan\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\QrCodeScan\\Create.cshtml",
+              "ToolTip": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\QrCodeScan\\Create.cshtml",
+              "RelativeToolTip": "Views\\QrCodeScan\\Create.cshtml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAACgAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-08T13:15:22.72Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\PointsRedemption\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\PointsRedemption\\Delete.cshtml",
+              "ToolTip": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\PointsRedemption\\Delete.cshtml",
+              "RelativeToolTip": "Views\\PointsRedemption\\Delete.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAA8AAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-08T13:13:04.131Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\PointsRedemption\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\PointsRedemption\\Create.cshtml",
+              "ToolTip": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\PointsRedemption\\Create.cshtml",
+              "RelativeToolTip": "Views\\PointsRedemption\\Create.cshtml",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAACoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-08T13:12:44.218Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\PointsLog\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\PointsLog\\Index.cshtml",
+              "ToolTip": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\PointsLog\\Index.cshtml",
+              "RelativeToolTip": "Views\\PointsLog\\Index.cshtml",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAADQAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-08T13:11:49.094Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\PointsLog\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\PointsLog\\Edit.cshtml",
+              "ToolTip": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\PointsLog\\Edit.cshtml",
+              "RelativeToolTip": "Views\\PointsLog\\Edit.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACQAAABQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-08T13:10:35.933Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\PointsLog\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\PointsLog\\Delete.cshtml",
+              "ToolTip": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\PointsLog\\Delete.cshtml",
+              "RelativeToolTip": "Views\\PointsLog\\Delete.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABgAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-08T13:09:04.959Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\PointsLog\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\PointsLog\\Create.cshtml",
+              "ToolTip": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\PointsLog\\Create.cshtml",
+              "RelativeToolTip": "Views\\PointsLog\\Create.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACUAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-08T13:07:46.573Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "AddUser.cshtml",
+              "DocumentMoniker": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\KullaniciYonetimi\\AddUser.cshtml",
+              "RelativeDocumentMoniker": "Views\\KullaniciYonetimi\\AddUser.cshtml",
+              "ToolTip": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\KullaniciYonetimi\\AddUser.cshtml",
+              "RelativeToolTip": "Views\\KullaniciYonetimi\\AddUser.cshtml",
+              "ViewState": "AQIAAFQAAAAAAAAAAAAAAF4AAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-08T13:07:16.912Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "DeleteUser.cshtml",
+              "DocumentMoniker": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\KullaniciYonetimi\\DeleteUser.cshtml",
+              "RelativeDocumentMoniker": "Views\\KullaniciYonetimi\\DeleteUser.cshtml",
+              "ToolTip": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\KullaniciYonetimi\\DeleteUser.cshtml",
+              "RelativeToolTip": "Views\\KullaniciYonetimi\\DeleteUser.cshtml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAACIAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-08T13:06:51.913Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "EditUser.cshtml",
+              "DocumentMoniker": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\KullaniciYonetimi\\EditUser.cshtml",
+              "RelativeDocumentMoniker": "Views\\KullaniciYonetimi\\EditUser.cshtml",
+              "ToolTip": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\KullaniciYonetimi\\EditUser.cshtml",
+              "RelativeToolTip": "Views\\KullaniciYonetimi\\EditUser.cshtml",
+              "ViewState": "AQIAAFEAAAAAAAAAAAAAAF8AAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-08T13:06:14.87Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\KullaniciYonetimi\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\KullaniciYonetimi\\Index.cshtml",
+              "ToolTip": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\KullaniciYonetimi\\Index.cshtml",
+              "RelativeToolTip": "Views\\KullaniciYonetimi\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-08T13:06:07.803Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "ListUsers.cshtml",
+              "DocumentMoniker": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\KullaniciYonetimi\\ListUsers.cshtml",
+              "RelativeDocumentMoniker": "Views\\KullaniciYonetimi\\ListUsers.cshtml",
+              "ToolTip": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\KullaniciYonetimi\\ListUsers.cshtml",
+              "RelativeToolTip": "Views\\KullaniciYonetimi\\ListUsers.cshtml",
+              "ViewState": "AQIAADkAAAAAAAAAAAAAAEQAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-08T13:05:36.514Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\Gifts\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Gifts\\Index.cshtml",
+              "ToolTip": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\Gifts\\Index.cshtml",
+              "RelativeToolTip": "Views\\Gifts\\Index.cshtml",
+              "ViewState": "AQIAADMAAAAAAAAAAAAAADcAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-08T13:04:52.119Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\Gifts\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Gifts\\Edit.cshtml",
+              "ToolTip": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\Gifts\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Gifts\\Edit.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACIAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-08T13:04:27.835Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\Gifts\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Gifts\\Delete.cshtml",
+              "ToolTip": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\Gifts\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Gifts\\Delete.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAB8AAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-08T13:03:26.003Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\Gifts\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Gifts\\Create.cshtml",
+              "ToolTip": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\Gifts\\Create.cshtml",
+              "RelativeToolTip": "Views\\Gifts\\Create.cshtml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAACEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-08T13:02:46.343Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\FormSubmissions\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\FormSubmissions\\Delete.cshtml",
+              "ToolTip": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\FormSubmissions\\Delete.cshtml",
+              "RelativeToolTip": "Views\\FormSubmissions\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-08T13:01:35.878Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "MenuHelper.cs",
+              "DocumentMoniker": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Helpers\\MenuHelper.cs",
+              "RelativeDocumentMoniker": "Helpers\\MenuHelper.cs",
+              "ToolTip": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Helpers\\MenuHelper.cs",
+              "RelativeToolTip": "Helpers\\MenuHelper.cs",
+              "ViewState": "AQIAAGsAAAAAAAAAAAAIwHAAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T13:01:11.965Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\FormSubmissions\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\FormSubmissions\\Create.cshtml",
+              "ToolTip": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\FormSubmissions\\Create.cshtml",
+              "RelativeToolTip": "Views\\FormSubmissions\\Create.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACMAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-08T13:00:24.597Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\Forms\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Forms\\Index.cshtml",
+              "ToolTip": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\Forms\\Index.cshtml",
+              "RelativeToolTip": "Views\\Forms\\Index.cshtml",
+              "ViewState": "AQIAADMAAAAAAAAAAAAAAEMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-08T12:59:31.287Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\Forms\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Forms\\Edit.cshtml",
+              "ToolTip": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\Forms\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Forms\\Edit.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACcAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-08T12:59:08.432Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\Forms\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Forms\\Delete.cshtml",
+              "ToolTip": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\Forms\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Forms\\Delete.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABwAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-08T12:58:42.503Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\Forms\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Forms\\Create.cshtml",
+              "ToolTip": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\Forms\\Create.cshtml",
+              "RelativeToolTip": "Views\\Forms\\Create.cshtml",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAADcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-08T12:58:04.855Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "ManageQrCodes.cshtml",
+              "DocumentMoniker": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\EventsManagement\\ManageQrCodes.cshtml",
+              "RelativeDocumentMoniker": "Views\\EventsManagement\\ManageQrCodes.cshtml",
+              "ToolTip": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\EventsManagement\\ManageQrCodes.cshtml",
+              "RelativeToolTip": "Views\\EventsManagement\\ManageQrCodes.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-08T12:57:57.8Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\EventsManagement\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\EventsManagement\\Index.cshtml",
+              "ToolTip": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\EventsManagement\\Index.cshtml",
+              "RelativeToolTip": "Views\\EventsManagement\\Index.cshtml",
+              "ViewState": "AQIAADYAAAAAAAAAAAAAAEUAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-08T12:57:21.088Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\EventsManagement\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\EventsManagement\\Edit.cshtml",
+              "ToolTip": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\EventsManagement\\Edit.cshtml",
+              "RelativeToolTip": "Views\\EventsManagement\\Edit.cshtml",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAADAAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-08T12:56:35.134Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\EventsManagement\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\EventsManagement\\Delete.cshtml",
+              "ToolTip": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\EventsManagement\\Delete.cshtml",
+              "RelativeToolTip": "Views\\EventsManagement\\Delete.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABsAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-08T12:56:05.91Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\EventsManagement\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\EventsManagement\\Create.cshtml",
+              "ToolTip": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\EventsManagement\\Create.cshtml",
+              "RelativeToolTip": "Views\\EventsManagement\\Create.cshtml",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAAC8AAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-08T12:55:00.089Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\EtkinlikKatilimciYonetimi\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\EtkinlikKatilimciYonetimi\\Index.cshtml",
+              "ToolTip": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\EtkinlikKatilimciYonetimi\\Index.cshtml",
+              "RelativeToolTip": "Views\\EtkinlikKatilimciYonetimi\\Index.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAABsAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-08T12:54:37.954Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\EtkinlikKatilimciYonetimi\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\EtkinlikKatilimciYonetimi\\Delete.cshtml",
+              "ToolTip": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\EtkinlikKatilimciYonetimi\\Delete.cshtml",
+              "RelativeToolTip": "Views\\EtkinlikKatilimciYonetimi\\Delete.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAB4AAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-08T12:54:26.069Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\EtkinlikKatilimciYonetimi\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\EtkinlikKatilimciYonetimi\\Create.cshtml",
+              "ToolTip": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\EtkinlikKatilimciYonetimi\\Create.cshtml",
+              "RelativeToolTip": "Views\\EtkinlikKatilimciYonetimi\\Create.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-08T12:54:00.693Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "Sil.cshtml",
+              "DocumentMoniker": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\Blogs\\Sil.cshtml",
+              "RelativeDocumentMoniker": "Views\\Blogs\\Sil.cshtml",
+              "ToolTip": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\Blogs\\Sil.cshtml",
+              "RelativeToolTip": "Views\\Blogs\\Sil.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-08T12:53:19.258Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\Blogs\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Blogs\\Index.cshtml",
+              "ToolTip": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\Blogs\\Index.cshtml",
+              "RelativeToolTip": "Views\\Blogs\\Index.cshtml",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-08T12:53:11.366Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "Duzenle.cshtml",
+              "DocumentMoniker": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\Blogs\\Duzenle.cshtml",
+              "RelativeDocumentMoniker": "Views\\Blogs\\Duzenle.cshtml",
+              "ToolTip": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\Blogs\\Duzenle.cshtml",
+              "RelativeToolTip": "Views\\Blogs\\Duzenle.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-08T12:50:13.203Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\Categories\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Categories\\Delete.cshtml",
+              "ToolTip": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\Categories\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Categories\\Delete.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-08T12:43:39.488Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\Categories\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Categories\\Index.cshtml",
+              "ToolTip": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\Categories\\Index.cshtml",
+              "RelativeToolTip": "Views\\Categories\\Index.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAABsAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-08T12:41:27.505Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\Categories\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Categories\\Edit.cshtml",
+              "ToolTip": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\Categories\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Categories\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-08T12:41:26.371Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAMkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-08T12:40:04.271Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\Categories\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Categories\\Create.cshtml",
+              "ToolTip": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\Categories\\Create.cshtml",
+              "RelativeToolTip": "Views\\Categories\\Create.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAQAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-08T12:38:01.706Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "Ekle.cshtml",
+              "DocumentMoniker": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\Blogs\\Ekle.cshtml",
+              "RelativeDocumentMoniker": "Views\\Blogs\\Ekle.cshtml",
+              "ToolTip": "D:\\USERS\\Desktop\\P27\\Portal23\\Portal\\Portal\\Views\\Blogs\\Ekle.cshtml",
+              "RelativeToolTip": "Views\\Blogs\\Ekle.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABMAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-08T12:36:58.338Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Portal",
+    "\\Portal\\Controllers",
+    "\\Portal\\Views\\Admin",
+    "\\Portal\\Views\\Admin\\Account",
+    "\\Portal\\Views\\Admin\\BirimAtama",
+    "\\Portal\\Views\\Admin\\KullaniciYonetimi",
+    "\\Portal\\Views\\Admin\\Profile",
+    "\\Portal\\Views\\Admin\\Role"
+  ],
+  "SelectedNode": "\\Portal\\Views",
+  "PreviewInSolutionExplorer": false
+}
