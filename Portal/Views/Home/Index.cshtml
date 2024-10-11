@@ -6,7 +6,206 @@
     // Hariç tutulacak action adları
     var excludedActions = new HashSet<string> { "Edit", "Duzenle", "Delete", "Sil","DeleteConfirmed", "SilOnayla","EditUser","DeleteUser","ConfirmDeleteUser","Update" };
 }
+<head>
+<link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
 
+
+</head>
+<style>
+/* Genel Box Sizing ve Default Ayarları */
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+i {
+    font-style: italic;
+}
+
+/* Renk ve Stil Ayarları */
+.bg-info, .bg-info > a {
+    color: #fff !important;
+}
+.bg-info {
+    background-color: #17a2b8 !important;
+}
+
+.bg-success, .bg-success > a,
+.bg-warning, .bg-warning > a,
+.bg-danger, .bg-danger > a {
+    color: #fff !important; /* 2. ve 3. kartların yazı rengini beyaz yap */
+}
+
+.bg-success {
+    background-color: #28a745 !important;
+}
+
+.bg-warning {
+    background-color: #ffc107 !important;
+}
+
+/* Small Box Stil Ayarları */
+.small-box {
+    border-radius: .25rem;
+    box-shadow: 0 0 1px rgba(0, 0, 0, .125), 0 1px 3px rgba(0, 0, 0, .2);
+    display: block;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.small-box > .inner {
+    padding: 10px;
+}
+
+.small-box .icon {
+    color: rgba(0, 0, 0, .15);
+    z-index: 0;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    transition: all .3s linear;
+}
+
+.small-box .icon > i {
+    font-size: 90px;
+    transition: transform 0.3s ease;
+    color: rgba(255, 255, 255, 0.5); /* İkonları görünür hale getirmek için beyaz renk */
+}
+
+.small-box .icon > i.fa, 
+.small-box .icon > i.fab, 
+.small-box .icon > i.far, 
+.small-box .icon > i.fas, 
+.small-box .icon > i.glyphicon, 
+.small-box .icon > i.ion {
+    font-size: 70px;
+    top: 20px;
+}
+
+.small-box:hover .icon > i {
+    transform: scale(1.2); /* İkonları %20 oranında büyüt */
+}
+
+.small-box > .small-box-footer {
+    background: rgba(0, 0, 0, .1);
+    color: rgba(255, 255, 255, .8);
+    display: block;
+    padding: 3px 0;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    z-index: 10;
+}
+
+.fa, .far, .fas {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+}
+
+.fa, .fab, .fad, .fal, .far, .fas {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+}
+
+.ion, .ionicons {
+    display: inline-block;
+    font-family: "Ionicons";
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    text-rendering: auto;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* Specific Icon Stil Ayarları */
+.fa-arrow-circle-right:before {
+    content: "\f0a9";
+}
+
+.ion-stats-bars:before {
+    content: "\f2b5";
+}
+
+</style>
+
+
+
+
+<div class="row">
+    <div class="col-lg-3 col-6">
+      <!-- small box -->
+      <div class="small-box bg-info">
+        <div class="inner">
+          <h3>150</h3>
+ 
+          <p>New Orders</p>
+        </div>
+        <div class="icon">
+          <i class="ion ion-bag"></i>
+        </div>
+        <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+      </div>
+    </div>
+    <!-- ./col -->
+    <div class="col-lg-3 col-6">
+      <!-- small box -->
+      <div class="small-box bg-success">
+        <div class="inner">
+          <h3>53<sup style="font-size: 20px">%</sup></h3>
+ 
+          <p>Bounce Rate</p>
+        </div>
+        <div class="icon">
+          <i class="ion ion-stats-bars"></i>
+        </div>
+        <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+      </div>
+    </div>
+    <!-- ./col -->
+    <div class="col-lg-3 col-6">
+      <!-- small box -->
+      <div class="small-box bg-warning">
+        <div class="inner">
+          <h3>44</h3>
+ 
+          <p>User Registrations</p>
+        </div>
+        <div class="icon">
+          <i class="ion ion-person-add"></i>
+        </div>
+        <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+      </div>
+    </div>
+    <!-- ./col -->
+    <div class="col-lg-3 col-6">
+      <!-- small box -->
+      <div class="small-box bg-danger">
+        <div class="inner">
+          <h3>65</h3>
+ 
+          <p>Unique Visitors</p>
+        </div>
+        <div class="icon">
+          <i class="ion ion-pie-graph"></i>
+        </div>
+        <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+      </div>
+    </div>
+    <!-- ./col -->
+</div>
 <h2>Yetkinizin Olduğu Sayfalar</h2>
 <div id="sidebar">
     <ul>

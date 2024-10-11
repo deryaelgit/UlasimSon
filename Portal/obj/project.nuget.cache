@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "v8fPu/vhf20DqaWkviD+QVAUVwiK04fwV69W9Xi27j6A2lB/X3BvAayEi6tbdg7q/8AVgj+nMmNizAkT4C/iOA==",
+  "dgSpecHash": "GzGft4wvboNG0+kxA4S0AhCRjoCn5ZDU2+zqKV/9JE4/FC1IvLaQUCH7yfGEviZgezsxKRcKKWoqZYRKKdM1WA==",
   "success": true,
-  "projectFilePath": "D:\\users\\41860127650\\Desktop\\portal yedeks\\Admin\\Portal\\Portal.csproj",
+  "projectFilePath": "D:\\users\\41860127650\\Desktop\\Ulasim\\Admin\\Portal\\Portal.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\41860127650\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\41860127650\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
