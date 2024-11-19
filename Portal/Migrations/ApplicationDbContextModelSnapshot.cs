@@ -231,8 +231,7 @@ namespace Portal.Migrations
                     b.Property<int?>("KanGrubuId")
                         .HasColumnType("int");
 
-                    b.Property<int?>("KanGrubuId1")
-                        .HasColumnType("int");
+
 
                     b.Property<DateTime?>("LastQuizDate")
                         .HasColumnType("datetime2");
@@ -273,7 +272,7 @@ namespace Portal.Migrations
 
                     b.HasIndex("KanGrubuId");
 
-                    b.HasIndex("KanGrubuId1");
+
 
                     b.HasIndex("SubeId");
 
@@ -360,6 +359,9 @@ namespace Portal.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
+                    b.Property<int?>("AracPlakaId")
+                        .HasColumnType("int");
+
                     b.Property<int?>("GuzergahId")
                         .HasColumnType("int");
 
@@ -390,6 +392,8 @@ namespace Portal.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("AracPlakaId");
+
                     b.HasIndex("GuzergahId");
 
                     b.HasIndex("PlakaTuruId");
@@ -405,7 +409,7 @@ namespace Portal.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int>("PlakaId")
+                    b.Property<int>("AracPlakaId")
                         .HasColumnType("int");
 
                     b.Property<int>("PlakaSahipId")
@@ -413,7 +417,7 @@ namespace Portal.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("PlakaId");
+                    b.HasIndex("AracPlakaId");
 
                     b.HasIndex("PlakaSahipId");
 
@@ -489,6 +493,9 @@ namespace Portal.Migrations
                     b.Property<int>("DenetimTuruId")
                         .HasColumnType("int");
 
+                    b.Property<int?>("LookupListId")
+                        .HasColumnType("int");
+
                     b.Property<int>("OlusturanKullaniciId")
                         .HasColumnType("int");
 
@@ -504,6 +511,8 @@ namespace Portal.Migrations
                     b.HasIndex("CezaDurumId");
 
                     b.HasIndex("DenetimTuruId");
+
+                    b.HasIndex("LookupListId");
 
                     b.HasIndex("OlusturanKullaniciId");
 
@@ -521,8 +530,10 @@ namespace Portal.Migrations
                     b.Property<int>("CezaYonetmelikId")
                         .HasColumnType("int");
 
+
                     b.Property<int>("DenetimId")
                         .HasColumnType("int");
+
 
                     b.Property<int?>("UserId")
                         .HasColumnType("int");
@@ -531,7 +542,10 @@ namespace Portal.Migrations
 
                     b.HasIndex("CezaYonetmelikId");
 
+
                     b.HasIndex("DenetimId");
+
+  
 
                     b.HasIndex("UserId");
 
@@ -578,7 +592,7 @@ namespace Portal.Migrations
                     b.ToTable("DenetimGecmisleri");
                 });
 
-            modelBuilder.Entity("Portal.Models.USYS.DenetimGecmisiFoto", b =>
+            modelBuilder.Entity("Portal.Models.USYS.DenetimGecmisiFotoVideo", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -589,7 +603,11 @@ namespace Portal.Migrations
                     b.Property<int>("DenetimGecmisiId")
                         .HasColumnType("int");
 
-                    b.Property<int>("FotoId")
+                    b.Property<int?>("FotoId")
+                        .HasColumnType("int");
+
+
+                    b.Property<int?>("VideoId")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
@@ -598,7 +616,11 @@ namespace Portal.Migrations
 
                     b.HasIndex("FotoId");
 
-                    b.ToTable("AracDenetimGecmisiFotolari");
+       
+
+                    b.HasIndex("VideoId");
+
+                    b.ToTable("AracDenetimGecmisiFotoVideolari");
                 });
 
             modelBuilder.Entity("Portal.Models.USYS.Foto", b =>
@@ -619,7 +641,7 @@ namespace Portal.Migrations
                     b.Property<int?>("DosyaTuruId")
                         .HasColumnType("int");
 
-                    b.Property<int?>("OlusturanKullaniciId")
+                    b.Property<int>("OlusturanKullaniciId")
                         .HasColumnType("int");
 
                     b.Property<DateTime?>("OlusturmaTarihi")
@@ -662,51 +684,6 @@ namespace Portal.Migrations
                     b.HasIndex("IlceId");
 
                     b.ToTable("Guzergahlar");
-                });
-
-            modelBuilder.Entity("Portal.Models.USYS.GuzergahZamanCizelge", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<TimeSpan?>("BaslangicSaati")
-                        .HasColumnType("time");
-
-                    b.Property<TimeSpan?>("BitisSaati")
-                        .HasColumnType("time");
-
-                    b.Property<int?>("GunId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("GuzergahId")
-                        .HasColumnType("int");
-
-                    b.Property<double?>("Mesafe")
-                        .HasColumnType("float");
-
-                    b.Property<int>("OlusturanKullaniciId")
-                        .HasColumnType("int");
-
-                    b.Property<DateTime>("OlusturulmaTarihi")
-                        .HasColumnType("datetime2");
-
-                    b.Property<int>("YerTuruId")
-                        .HasColumnType("int");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("GunId");
-
-                    b.HasIndex("GuzergahId");
-
-                    b.HasIndex("OlusturanKullaniciId");
-
-                    b.HasIndex("YerTuruId");
-
-                    b.ToTable("GuzergahZamanCizelgeleri");
                 });
 
             modelBuilder.Entity("Portal.Models.USYS.LookUp", b =>
@@ -841,6 +818,87 @@ namespace Portal.Migrations
                     b.ToTable("UcretTakvimleri");
                 });
 
+            modelBuilder.Entity("Portal.Models.USYS.Video", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<Guid>("DataGuid")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("DosyaAdi")
+                        .HasMaxLength(255)
+                        .HasColumnType("nvarchar(255)");
+
+                    b.Property<int?>("DosyaTuruId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("OlusturanKullaniciId")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime?>("OlusturmaTarihi")
+                        .HasColumnType("datetime2");
+
+                    b.Property<byte[]>("Veri")
+                        .HasColumnType("varbinary(max)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("DosyaTuruId");
+
+                    b.HasIndex("OlusturanKullaniciId");
+
+                    b.ToTable("Videolar");
+                });
+
+            modelBuilder.Entity("Portal.Models.USYS.ZamanCizelge", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<TimeSpan?>("BaslangicSaati")
+                        .HasColumnType("time");
+
+                    b.Property<TimeSpan?>("BitisSaati")
+                        .HasColumnType("time");
+
+                    b.Property<int?>("GunId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("GuzergahId")
+                        .HasColumnType("int");
+
+                    b.Property<double?>("Mesafe")
+                        .HasColumnType("float");
+
+                    b.Property<int>("OlusturanKullaniciId")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("OlusturulmaTarihi")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("YerTuruId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("GunId");
+
+                    b.HasIndex("GuzergahId");
+
+                    b.HasIndex("OlusturanKullaniciId");
+
+                    b.HasIndex("YerTuruId");
+
+                    b.ToTable("ZamanCizelgeleri");
+                });
+
             modelBuilder.Entity("Portal.Models.Admin.Mudurluk", b =>
                 {
                     b.HasOne("Portal.Models.Admin.Birim", "Birim")
@@ -889,9 +947,7 @@ namespace Portal.Migrations
                         .HasForeignKey("KanGrubuId")
                         .OnDelete(DeleteBehavior.Restrict);
 
-                    b.HasOne("Portal.Models.Admin.KanGrubu", null)
-                        .WithMany("Users")
-                        .HasForeignKey("KanGrubuId1");
+          
 
                     b.HasOne("Portal.Models.Admin.Sube", "Sube")
                         .WithMany("Users")
@@ -966,6 +1022,10 @@ namespace Portal.Migrations
 
             modelBuilder.Entity("Portal.Models.USYS.AracPlaka", b =>
                 {
+                    b.HasOne("Portal.Models.USYS.AracPlaka", null)
+                        .WithMany("AracPlakalari")
+                        .HasForeignKey("AracPlakaId");
+
                     b.HasOne("Portal.Models.USYS.Guzergah", "Guzergah")
                         .WithMany()
                         .HasForeignKey("GuzergahId")
@@ -985,7 +1045,7 @@ namespace Portal.Migrations
                 {
                     b.HasOne("Portal.Models.USYS.AracPlaka", "AracPlaka")
                         .WithMany("AracSahipleri")
-                        .HasForeignKey("PlakaId")
+                        .HasForeignKey("AracPlakaId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
@@ -1044,6 +1104,10 @@ namespace Portal.Migrations
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
+                    b.HasOne("Portal.Models.USYS.LookupList", null)
+                        .WithMany("Denetimler")
+                        .HasForeignKey("LookupListId");
+
                     b.HasOne("Portal.Models.Admin.User", "OlusturanKullanici")
                         .WithMany("Denetimler")
                         .HasForeignKey("OlusturanKullaniciId")
@@ -1069,11 +1133,13 @@ namespace Portal.Migrations
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
+
                     b.HasOne("Portal.Models.USYS.Denetim", "Denetim")
                         .WithMany()
                         .HasForeignKey("DenetimId")
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
+
 
                     b.HasOne("Portal.Models.Admin.User", null)
                         .WithMany("DenetimCezalari")
@@ -1111,7 +1177,7 @@ namespace Portal.Migrations
                     b.Navigation("OlusturanKullanici");
                 });
 
-            modelBuilder.Entity("Portal.Models.USYS.DenetimGecmisiFoto", b =>
+            modelBuilder.Entity("Portal.Models.USYS.DenetimGecmisiFotoVideo", b =>
                 {
                     b.HasOne("Portal.Models.USYS.DenetimGecmisi", "DenetimGecmisi")
                         .WithMany("DenetimGecmisiFotolari")
@@ -1122,12 +1188,19 @@ namespace Portal.Migrations
                     b.HasOne("Portal.Models.USYS.Foto", "Foto")
                         .WithMany()
                         .HasForeignKey("FotoId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .OnDelete(DeleteBehavior.Cascade);
+
+ 
+
+                    b.HasOne("Portal.Models.USYS.Video", "Video")
+                        .WithMany("DenetimGecmisiFotoVideolari")
+                        .HasForeignKey("VideoId");
 
                     b.Navigation("DenetimGecmisi");
 
                     b.Navigation("Foto");
+
+                    b.Navigation("Video");
                 });
 
             modelBuilder.Entity("Portal.Models.USYS.Foto", b =>
@@ -1139,7 +1212,8 @@ namespace Portal.Migrations
                     b.HasOne("Portal.Models.Admin.User", "OlusturanKullanici")
                         .WithMany("Fotolar")
                         .HasForeignKey("OlusturanKullaniciId")
-                        .OnDelete(DeleteBehavior.Restrict);
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
 
                     b.Navigation("DosyaTuru");
 
@@ -1161,40 +1235,6 @@ namespace Portal.Migrations
                     b.Navigation("Geometri");
 
                     b.Navigation("Ilce");
-                });
-
-            modelBuilder.Entity("Portal.Models.USYS.GuzergahZamanCizelge", b =>
-                {
-                    b.HasOne("Portal.Models.USYS.LookupList", "Gun")
-                        .WithMany()
-                        .HasForeignKey("GunId")
-                        .OnDelete(DeleteBehavior.Restrict);
-
-                    b.HasOne("Portal.Models.USYS.Guzergah", "Guzergah")
-                        .WithMany("GuzergahZamanCizelgeleri")
-                        .HasForeignKey("GuzergahId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("Portal.Models.Admin.User", "OlusturanKullanici")
-                        .WithMany()
-                        .HasForeignKey("OlusturanKullaniciId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("Portal.Models.USYS.LookupList", "YerTuru")
-                        .WithMany()
-                        .HasForeignKey("YerTuruId")
-                        .OnDelete(DeleteBehavior.Restrict)
-                        .IsRequired();
-
-                    b.Navigation("Gun");
-
-                    b.Navigation("Guzergah");
-
-                    b.Navigation("OlusturanKullanici");
-
-                    b.Navigation("YerTuru");
                 });
 
             modelBuilder.Entity("Portal.Models.USYS.LookupList", b =>
@@ -1242,6 +1282,57 @@ namespace Portal.Migrations
                         .IsRequired();
 
                     b.Navigation("Guzergah");
+                });
+
+            modelBuilder.Entity("Portal.Models.USYS.Video", b =>
+                {
+                    b.HasOne("Portal.Models.USYS.LookupList", "DosyaTuru")
+                        .WithMany()
+                        .HasForeignKey("DosyaTuruId");
+
+                    b.HasOne("Portal.Models.Admin.User", "OlusturanKullanici")
+                        .WithMany()
+                        .HasForeignKey("OlusturanKullaniciId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("DosyaTuru");
+
+                    b.Navigation("OlusturanKullanici");
+                });
+
+            modelBuilder.Entity("Portal.Models.USYS.ZamanCizelge", b =>
+                {
+                    b.HasOne("Portal.Models.USYS.LookupList", "Gun")
+                        .WithMany()
+                        .HasForeignKey("GunId")
+                        .OnDelete(DeleteBehavior.Restrict);
+
+                    b.HasOne("Portal.Models.USYS.Guzergah", "Guzergah")
+                        .WithMany("ZamanCizelgeleri")
+                        .HasForeignKey("GuzergahId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Portal.Models.Admin.User", "OlusturanKullanici")
+                        .WithMany("ZamanCizelgeleri")
+                        .HasForeignKey("OlusturanKullaniciId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Portal.Models.USYS.LookupList", "YerTuru")
+                        .WithMany()
+                        .HasForeignKey("YerTuruId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.Navigation("Gun");
+
+                    b.Navigation("Guzergah");
+
+                    b.Navigation("OlusturanKullanici");
+
+                    b.Navigation("YerTuru");
                 });
 
             modelBuilder.Entity("Portal.Models.Admin.Birim", b =>
@@ -1297,6 +1388,8 @@ namespace Portal.Migrations
                     b.Navigation("PlakaSahipleri");
 
                     b.Navigation("UserRoles");
+
+                    b.Navigation("ZamanCizelgeleri");
                 });
 
             modelBuilder.Entity("Portal.Models.USYS.AracDenetim", b =>
@@ -1308,11 +1401,20 @@ namespace Portal.Migrations
                 {
                     b.Navigation("AracDenetimleri");
 
+                    b.Navigation("AracPlakalari");
+
                     b.Navigation("AracSahipleri");
+                });
+
+            modelBuilder.Entity("Portal.Models.USYS.CezaYonetmelik", b =>
+                {
+                    b.Navigation("DenetimCezalari");
                 });
 
             modelBuilder.Entity("Portal.Models.USYS.Denetim", b =>
                 {
+                    b.Navigation("DenetimCezalari");
+
                     b.Navigation("DenetimGecmisleri");
                 });
 
@@ -1321,11 +1423,16 @@ namespace Portal.Migrations
                     b.Navigation("DenetimGecmisiFotolari");
                 });
 
+            modelBuilder.Entity("Portal.Models.USYS.Foto", b =>
+                {
+                    b.Navigation("DenetimGecmisiFotoVideolari");
+                });
+
             modelBuilder.Entity("Portal.Models.USYS.Guzergah", b =>
                 {
-                    b.Navigation("GuzergahZamanCizelgeleri");
-
                     b.Navigation("UcretTakvimleri");
+
+                    b.Navigation("ZamanCizelgeleri");
                 });
 
             modelBuilder.Entity("Portal.Models.USYS.LookUp", b =>
@@ -1341,6 +1448,8 @@ namespace Portal.Migrations
 
                     b.Navigation("CezaYonetmelikleri");
 
+                    b.Navigation("Denetimler");
+
                     b.Navigation("Fotolar");
 
                     b.Navigation("GeometriGuzergahlar");
@@ -1351,6 +1460,11 @@ namespace Portal.Migrations
             modelBuilder.Entity("Portal.Models.USYS.PlakaSahip", b =>
                 {
                     b.Navigation("AracSahipleri");
+                });
+
+            modelBuilder.Entity("Portal.Models.USYS.Video", b =>
+                {
+                    b.Navigation("DenetimGecmisiFotoVideolari");
                 });
 #pragma warning restore 612, 618
         }

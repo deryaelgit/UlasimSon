@@ -46,10 +46,8 @@ namespace Portal.Models.Admin
         public DateTime BirthDate { get; set; } 
         public DateTime? LastQuizDate { get; set; } 
         // Foreign Key for KanGrubus
-          [ForeignKey("KanGrubuId")]
+   
     public int? KanGrubuId { get; set; }
-  
-
     public KanGrubu KanGrubu { get; set; } // Navigation property
 
 
@@ -72,7 +70,7 @@ namespace Portal.Models.Admin
         public ICollection<UserRole> UserRoles { get; set; }
         public ICollection<Foto>? Fotolar { get; set; } // Kullanıcıya ait fotoğraflar koleksiyonu
         public ICollection<AracDenetim>? AracDenetimleri { get; set; } // Kullanıcıya ait fotoğraflar koleksiyonu
-           public ICollection<AracDenetimGecmis>? AracDenetimGecmisleri { get; set; } // Kullanıcıya ait denetim geçmişleri
+        //    public ICollection<AracDenetimGecmis>? AracDenetimGecmisleri { get; set; } // Kullanıcıya ait denetim geçmişleri
 
         public ICollection<DenetimGecmisi>? DenetimGecmisleri { get; set; } // Kullanıcıya ait fotoğraflar koleksiyonu
         public ICollection<PlakaSahip>? PlakaSahipleri { get; set; } // Kullanıcıya ait fotoğraflar koleksiyonu
@@ -80,8 +78,8 @@ namespace Portal.Models.Admin
 public ICollection<CezaYonetmelik>? CezaYonetmelikleri { get; set; } // Kullanıcıya ait ceza yönetmelikleri koleksiyonu
     public ICollection<Denetim> Denetimler { get; set; } // Kullanıcının oluşturduğu denetimler
 
-        public DbSet<LookupList> LookupLists { get; set; } // LookupList tablosu
-            public DbSet<DenetimCeza> DenetimCezalari { get; set; } // Denetim ve Ceza ilişkisini tutan tablo
+                public ICollection<ZamanCizelge>? ZamanCizelgeleri { get; set; } // Kullanıcının oluşturduğu zaman çizelgeleri
+
 
 
        

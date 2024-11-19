@@ -9,7 +9,7 @@ namespace Portal.Models.USYS
         public int Id { get; set; } // Benzersiz kimlik numarası (Primary Key)
 
         // Güzergah ile ilişkilendirilmiş olan RouteId alanı
-        [ForeignKey("Guzergah")]
+        [ForeignKey("GuzergahId")]
         public int GuzergahId { get; set; } // Güzergah kimlik numarası
         public Guzergah Guzergah { get; set; } // Güzergah ile ilişki (Navigation Property)
 

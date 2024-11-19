@@ -5,13 +5,13 @@ namespace Portal.Models.USYS
 {
     public class AracSahibi
     {
-   [Key]
+        [Key]
         public int Id { get; set; } // Benzersiz kimlik numarası
 
         [Required]
-        public int PlakaId { get; set; } // Plaka ile ilişki (Foreign Key)
+        public int AracPlakaId { get; set; } // Plaka ile ilişki (Foreign Key)
 
-        [ForeignKey("PlakaId")] // PlakaId, AracPlaka ile ilişkilendirilecek FK'dir.
+        [ForeignKey("AracPlakaId")] // AracPlakaId, AracPlaka ile ilişkilendirilecek FK'dir.
         public AracPlaka AracPlaka { get; set; } // Plaka navigasyon özelliği
 
         [Required]
@@ -21,4 +21,4 @@ namespace Portal.Models.USYS
         public PlakaSahip PlakaSahip { get; set; } // Araç sahibi navigasyon özelliği
     }
 }
-        
+

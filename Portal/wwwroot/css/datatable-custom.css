@@ -132,3 +132,61 @@ table.dataTable thead th {
     opacity: 0.65; /* Devre dışı bırakılmış butonun şeffaflığı */
 }
 
+/* responsive */
+
+/* Tablolar için responsive yapı */
+.table-responsive {
+    display: block;
+    width: 100%;
+    overflow-x: auto; /* Yatay kaydırmayı etkinleştir */
+    -webkit-overflow-scrolling: touch; /* Mobil cihazlarda yumuşak kaydırma */
+}
+
+/* Tablo görünümü */
+#example {
+    width: 100% !important; /* Tablo genişliğini kapsayıcıya uyumlu yap */
+}
+
+/* Tablo hücreleri */
+#example th, #example td {
+    padding: 12px; /* Hücre iç boşlukları */
+    text-align: left; /* Metni sola hizala */
+    white-space: nowrap; /* Uzun metinlerin taşmasını engeller */
+}
+
+/* Tabloda uzun metinler için kaydırma */
+#example td {
+    word-wrap: break-word; /* Metni hücre içinde sar */
+}
+
+/* 
+#example {
+    width: 100% !important;
+    overflow-x: auto !important;
+    display: block !important;
+  }
+  
+  #example {
+      overflow-x: auto !important; 
+      overflow-y: hidden; 
+  }
+  
+  #example::-webkit-scrollbar {
+      height: 20px; 
+  }
+  
+  #example::-webkit-scrollbar-thumb {
+      background-color: #888; 
+      border-radius: 5px; 
+      border: 4px solid #f1f1f1;
+  }
+  
+  #example::-webkit-scrollbar-track {
+      background-color: #f1f1f1;
+  }
+  
+  #example {
+      scrollbar-width: thin;
+      scrollbar-color: #888 #f1f1f1; 
+  }
+   */

@@ -5,18 +5,18 @@ namespace Portal.Models.USYS
 {
     public class DenetimCeza
     {
-           [Key]
+        [Key]
         public int Id { get; set; } // Benzersiz kimlik numarası (Primary Key)
 
         // Minutes ile ilişki
-        [ForeignKey("Denetim")]
+        [ForeignKey("DenetimId")]
         public int DenetimId { get; set; } // MinutesId alanı
         public Denetim Denetim { get; set; } // Navigation Property (İlgili denetim bilgisi)
 
         // PunishmentRegulations ile ilişki
-        [ForeignKey("CezaMaddesi")]
+        [ForeignKey("CezaYonetmelikId")]
         public int CezaYonetmelikId { get; set; } // PunishmentRegulationsId alanı
         public CezaYonetmelik CezaYonetmelik { get; set; } // Navigation Property (İlgili ceza maddesi bilgisi)
     }
-        
-    }
+
+}

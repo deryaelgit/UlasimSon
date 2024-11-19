@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\users\\41860127650\\Desktop\\Ulasim\\Admin\\Portal\\Portal.csproj": {}
+    "D:\\users\\41860127650\\Desktop\\u14\\Ulasim\\Admin\\Portal\\Portal.csproj": {}
   },
   "projects": {
-    "D:\\users\\41860127650\\Desktop\\Ulasim\\Admin\\Portal\\Portal.csproj": {
+    "D:\\users\\41860127650\\Desktop\\u14\\Ulasim\\Admin\\Portal\\Portal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\users\\41860127650\\Desktop\\Ulasim\\Admin\\Portal\\Portal.csproj",
+        "projectUniqueName": "D:\\users\\41860127650\\Desktop\\u14\\Ulasim\\Admin\\Portal\\Portal.csproj",
         "projectName": "Portal",
-        "projectPath": "D:\\users\\41860127650\\Desktop\\Ulasim\\Admin\\Portal\\Portal.csproj",
+        "projectPath": "D:\\users\\41860127650\\Desktop\\u14\\Ulasim\\Admin\\Portal\\Portal.csproj",
         "packagesPath": "C:\\Users\\41860127650\\.nuget\\packages\\",
-        "outputPath": "D:\\users\\41860127650\\Desktop\\Ulasim\\Admin\\Portal\\obj\\",
+        "outputPath": "D:\\users\\41860127650\\Desktop\\u14\\Ulasim\\Admin\\Portal\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\41860127650\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -44,6 +44,10 @@
               "target": "Package",
               "version": "[8.0.8, )"
             },
+            "Microsoft.AspNetCore.SignalR": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
             "Microsoft.AspNetCore.WebSockets": {
               "target": "Package",
               "version": "[2.2.1, )"
@@ -75,6 +79,14 @@
             "Microsoft.jQuery.Unobtrusive.Validation": {
               "target": "Package",
               "version": "[4.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "QuestPDF": {
+              "target": "Package",
+              "version": "[2024.10.3, )"
             },
             "jQuery.Validation": {
               "target": "Package",

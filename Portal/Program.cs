@@ -8,6 +8,10 @@ using Portal.Filters;
 using Portal.Helpers;
 using System;
 using Portal.Models.Admin;
+using Portal.Controllers.Admin;
+using Portal.Services;
+using Portal.Hubs;
+using QuestPDF.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -27,6 +31,7 @@ builder.Services.AddControllersWithViews()
     {
         options.ViewLocationFormats.Add("/Views/Admin/{1}/{0}.cshtml");
         options.ViewLocationFormats.Add("/Views/New/{1}/{0}.cshtml");
+        options.ViewLocationFormats.Add("/Views/USYS/{1}/{0}.cshtml");
 
         options.ViewLocationFormats.Add("/Views/Shared/{0}.cshtml");
     });
@@ -37,6 +42,16 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 builder.Services.AddScoped<PermissionAuthorizationFilter>();
 builder.Services.AddScoped<MenuHelper>();  // Add MenuHelper as a service
 
+
+builder.Services.AddSignalR();
+builder.Services.AddScoped<NotificationService>();
+builder.Services.AddHostedService<DailyNotificationService>();
+
+// AddScoped ekleyin, böylece UserRoleHelper uygulama boyunca kullanılabilir
+builder.Services.AddScoped<UserRoleHelper>();
+
+
+
 // Add Authentication and Cookie settings
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
     .AddCookie(options =>
@@ -45,6 +60,9 @@ builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationSc
         options.LogoutPath = "/Account/Logout";
     });
 
+    //yazdırma
+// QuestPDF Lisans Ayarı
+QuestPDF.Settings.License = LicenseType.Community;
 // HikayeSilmeService'i arka plan hizmeti olarak ekleyin
 var app = builder.Build();
 
@@ -83,6 +101,8 @@ app.Use(async (context, next) =>
 
 app.UseEndpoints(endpoints =>
 {
+    endpoints.MapHub<NotificationHub>("/notificationHub");
+
     endpoints.MapControllerRoute(
         name: "default",
         pattern: "{controller=Home}/{action=Index}/{id?}");

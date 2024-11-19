@@ -56,3 +56,23 @@ button:hover {
     color: red !important; /* Validation mesajlarını kırmızı yap */
     font-size: 14px;
 }
+
+/* Tüm form kontrol öğeleri için genişlik ayarı */
+.form-control {
+    width: 100%; /* Genişliği %100 yaparak container'ı tamamen kapla */
+    max-width: 400px; /* Doğum Tarihi input'u ile aynı genişlik */
+    box-sizing: border-box; /* Kenarlık ve padding'in genişliği etkilemesini önle */
+}
+
+/* İsteğe bağlı olarak sadece select öğeleri için */
+select.form-control {
+    width: 100%; /* Genişliği %100 yaparak container'ı tamamen kapla */
+    max-width: 400px; /* Doğum Tarihi input'u ile aynı genişlik */
+    padding: 10px 12px; /* İçerik aralığı */
+}
+
+/* Doğum Tarihi input'u ile aynı görünümü sağlamak için */
+input[type="date"].form-control {
+    width: 100%; /* Genişliği %100 yap */
+    max-width: 400px; /* Maksimum genişlik Doğum Tarihi input'u ile eşit */
+}

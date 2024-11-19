@@ -19,7 +19,8 @@ namespace Portal.Helpers
         {
             "SubmitAnswer",   "Details","Ekle","ShowImage","ChangePassword","Update","EditUser","DeleteUser",
             "ConfirmDeleteUser", "Logout", "Delete", "Sil", "SilOnayla", "DeleteConfirmed", 
-            "Edit", "Duzenle", "AccessDenied" 
+            "Edit", "Duzenle", "AccessDenied" ,"GetFilteredPlates", "Index2", "GetFoto", "GetVideo","AddDenetimGecmisi","GetPlakaCezaVerileri", "GetTutanakVerileri",
+        "Create", "CreateCeza", "DenetimOlustur","GetPlates","GetTutanakDataByPlaka"
         };
 
         // Görünmesini istemediğimiz controllerlar
@@ -150,6 +151,13 @@ namespace Portal.Helpers
                 { "Home", "Anasayfa" },
                 { "Account", "Hesap" },
                 { "Profile", "Profil" },
+             { "Denetim", "Denetimler" },
+                { "AracKayit", "AraçKayıt" },
+                                { "Guzergah", "Güzergahlar" },
+
+                { "CezaYonetimi", "Cezalar" },
+                { "CezaYonetmelik", "CezaYönetmelik" },
+                       { "Rapor", "Raporlar" }
         // Hikaye için açık kitap ikonu
                 // Diğer controller adlarını burada ekleyin
             };
@@ -160,13 +168,21 @@ namespace Portal.Helpers
             return new Dictionary<string, string>
             {
                 { "Index", "Listele" },
-                { "Create", "Oluştur" },
+                { "Create", "Ekle" },
                 { "Login", "Giriş" },
                 { "Register", "Kayıt Ol" },
                 { "AddUser", "Kullanıcı Ekle" },
                 { "ListUsers", "Kullanıcıları Listele" },
                 {"Assign", "Personele Birim Ata"},
                 {"GetQuestion", "Soruları Getir"},
+
+                {"CreateZamanCizelge", "Zaman Çizelgesi Ekle"},
+                { "DenetimOlustur", "Ekle" },
+                                { "CreateCeza", "Ekle" },
+                                  { "Ihlal", "İhlal Cezaları" },
+                                                                    { "Ihtar", "İhtar Cezaları" }
+
+
 
 
                 // Diğer action adlarını burada ekleyin

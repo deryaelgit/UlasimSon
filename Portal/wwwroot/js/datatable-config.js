@@ -1,5 +1,11 @@
-$(document).ready(function () {
-    $('#example').DataTable({
+$(document).ready(function() {
+     // #example tablosunda bir DataTable örneği yoksa başlat
+     if (!$.fn.DataTable.isDataTable('#example')) {
+        $('#example').DataTable({
+            "order": [[0, "desc"]], // 0. sütuna göre azalan sırada sıralama (ID sütunu)
+            "columnDefs": [
+                { "targets": 0, "visible": false } // İlk sütunu (ID sütunu) gizle
+            ],
         "language": {
             "decimal": ",",
             "emptyTable": "Tabloda herhangi bir veri mevcut değil",
@@ -30,4 +36,17 @@ $(document).ready(function () {
             $('#example thead th').css('background-color', '#f8f9fa').css('color', '#333');
         }
     });
+}
 });
+
+//responsive
+$(document).ready(function() {
+    if (!$.fn.DataTable.isDataTable('#example')) {
+      $('#example').DataTable({
+        responsive: true
+      });
+    }
+  });
+
+ 
+  

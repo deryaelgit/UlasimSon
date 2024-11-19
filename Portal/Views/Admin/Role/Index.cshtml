@@ -14,6 +14,7 @@
             <table id="example" class="display" style="width:100%">
                 <thead style="background-color: #f8f9fa !important;">
                     <tr>
+                        <th>Rol Id</th>
                         <th>Rol Adı</th>
                         <th>Hareketler</th>
                     </tr>
@@ -24,6 +25,7 @@
                     @foreach (var role in Model)
             {
                     <tr style="background-color: white !important;">
+                        <td>@role.Id</td>
 
                         <td>@role.Name</td>
                         <td>

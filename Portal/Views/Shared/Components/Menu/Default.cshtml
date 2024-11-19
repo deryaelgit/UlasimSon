@@ -12,7 +12,7 @@
     background-color: #444444 !important;
     padding: 6px 10px !important;
     border-radius: 5px !important;
-    margin-bottom: 5px !important;
+    margin-bottom: 14px !important;
     display: flex !important;
     align-items: center !important;
     width: 100% !important;
@@ -34,7 +34,7 @@
 /* Klasör ikonları ve yazılar için özel stil */
 .nav-item > a.nav-link > i {
     margin-right: 8px !important;
-    color: rgb(161, 231, 161)!important; /* Klasör ikonları turuncu */
+ color: rgb(180, 255, 162) !important; /* Klasör ikonları turuncu */
     font-size: 1.3em !important; /* İkon boyutunu artırma */
     font-weight: bold !important; /* İkonları kalın yapma */
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Gölge ekleyerek ikonları daha belirgin yapma */
@@ -43,21 +43,21 @@
 /* Klasörlerin sağındaki ok (chevron) ikonları için özel stil */
 .nav-item > a.nav-link .bi-chevron-down {
 
-    color:  rgb(161, 231, 161) !important;
-        font-size: 1.2em !important; /* Ok ikonlarını daha büyük yap */
+    color: rgb(180, 255, 162) !important; /* Klasör ikonları turuncu */
+    font-size: 1.2em !important; /* Ok ikonlarını daha büyük yap */
     transition: all 0.3s ease !important; /* Hover geçiş efekti */
 }
 
 /* Hover efekti (Yazı ve ikonlar turuncu) */
 .nav-item > a.nav-link:hover {
     /* color: #ff8c00 !important; */
-    color:  rgb(161, 231, 161) !important;
+    color: rgb(180, 255, 162) !important; /* Klasör ikonları turuncu */
     background-color: #444444 !important;
 }
 
 .nav-item > a.nav-link:hover i {
     /* color: #ff8c00 !important; */
-    color:  rgb(161, 231, 161) !important;
+    color: rgb(180, 255, 162) !important; /* Klasör ikonları turuncu */
 }
 
 /* Controller listesi stil ayarları (Klasöre tıklayınca açılan) */
@@ -78,7 +78,7 @@
 .nav-content > li > a.nav-link.collapsed > i {
     margin-right: 8px !important;
     flex-shrink: 0 !important;
-    color: #e65c00 !important; /* Varsayılan ikon rengi yeşil */
+    color: #ff6c00 !important; /* Varsayılan ikon rengi yeşil */
     font-size: 0.9em !important; /* İkon boyutunu artırma */
     font-weight: bold !important; /* İkonları kalın yapma */
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Gölge ekleyerek ikonları daha belirgin yapma */
@@ -88,12 +88,12 @@
 
 .nav-content > li > a.nav-link.collapsed:focus i, 
 .nav-content > li > a.nav-link.collapsed:active i {
-    color:  rgb(161, 231, 161) !important; /* İkon rengi yeşil kalsın */
+    color: rgb(180, 255, 162) !important; /* Klasör ikonları turuncu */
 }
 
 /* Actionların sağındaki ok (chevron) ikonları için özel stil */
 .nav-content > li > ul.nav-content > li > a .bi-chevron-right {
-    color:  rgb(161, 231, 161) !important; /* Action ok ikonları yeşil */
+    color: rgb(180, 255, 162) !important; /* Klasör ikonları turuncu */
     font-size: 1.2em !important; /* Ok ikonlarını biraz daha büyük yap */
     transition: all 0.3s ease !important; /* Hover geçiş efekti */
 }
@@ -101,19 +101,19 @@
 
 /* Tıklanan action için özel stil */
 .nav-content > li > ul.nav-content > li > a.active {
-    color:  rgb(161, 231, 161)  !important;
+    color: rgb(180, 255, 162) !important; /* Klasör ikonları turuncu */
     background-color: #ffffff !important;
 }
 
 /* Controller ve action listeleri için hover efekti */
 .nav-content > li > a.nav-link.collapsed:hover,
 .nav-content > li > ul.nav-content > li > a:hover {
-    color: #e65c00 !important;
+    color: #ff6c00 !important;
     background-color: #444444 !important;
 }
 
 .nav-content > li > ul.nav-content > li > a > i:hover {
-    color: #e65c00 !important;
+    color: #ff6c00 !important;
 }
 
 /* Action listesi (alt menü) stil ayarları */
@@ -180,12 +180,20 @@
                     var controllerIconClass = controllerGroup.Key switch
                     {
                         "Bloglar" => "bi bi-journal-text",
-                        "KullanıcıYönetimi" => "bi bi-people",
-                        "BirimAtama" => "bi bi-diagram-3",
+                        "KullanıcıYönetimi" => "bi bi-people-fill",
+                        "BirimAtama" => "bi bi-diagram-3-fill",
                         "RolTanımları" => "bi bi-key",
-                        "KullanıcıRolleri" => "bi bi-person-check",
+                        "KullanıcıRolleri" => "bi bi-person-check-fill",
                         "Home" => "bi bi-house",
                         "Account" => "bi bi-person-circle",
+
+                        "AraçKayıt" => "bi bi-car-front-fill",
+                        "Cezalar" => "bi bi-x-circle-fill",
+                        "CezaYönetmelik" => "bi bi-file-text-fill",
+                        "Denetimler" => "bi bi-pencil-square",
+                        "Raporlar" => "bi bi-bar-chart-line-fill",
+                        "Güzergahlar" => "bi bi-sign-turn-slight-right-fill",
+
                         "Profile" => "bi bi-person",
                         _ => "bi bi-folder" // Varsayılan ikon
                     };
@@ -264,5 +272,7 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     });
 });
+
+
 
     </script>

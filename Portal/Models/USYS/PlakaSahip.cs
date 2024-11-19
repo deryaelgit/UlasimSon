@@ -6,7 +6,7 @@ namespace Portal.Models.USYS
 {
     public class PlakaSahip
     {
-   [Key]
+        [Key]
         public int Id { get; set; } // Benzersiz kimlik numarası
 
         public int? KayitNumarasi { get; set; } // Kayıt numarası
@@ -18,10 +18,14 @@ namespace Portal.Models.USYS
         public string? Adres { get; set; } // Adres
 
         public int? CinsiyetId { get; set; } // Foreign Key
+        [ForeignKey("CinsiyetId")] // ForeignKey özniteliği CinsiyetId ile ilişkilendirildi
+
         public LookupList? Cinsiyet { get; set; } // Cinsiyet navigasyon özelliği
 
         public string? Telefon { get; set; } // Telefon
         public bool AktifMi { get; set; } // Aktif mi
+
+        [ForeignKey("OlusturanKullaniciId")] // ForeignKey özniteliği OlusturanKullaniciId ile ilişkilendirildi
 
         public int? OlusturanKullaniciId { get; set; } // Foreign Key
         public User? OlusturanKullanici { get; set; } // Kullanıcı navigasyon özelliği
@@ -32,5 +36,5 @@ namespace Portal.Models.USYS
         public ICollection<AracSahibi>? AracSahipleri { get; set; }
 
     }
-        
-    }
+
+}

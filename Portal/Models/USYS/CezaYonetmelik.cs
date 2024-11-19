@@ -6,7 +6,7 @@ namespace Portal.Models.USYS
 {
     public class CezaYonetmelik
     {
-         [Key]
+        [Key]
         public int Id { get; set; } // Benzersiz kimlik numarası (Primary Key)
 
         // Madde bilgisi (Matter)
@@ -21,7 +21,7 @@ namespace Portal.Models.USYS
         public string? Bent { get; set; }
 
         // Yönetmelik bilgisi (Regulations)
-      
+
         public string Yonetmelik { get; set; }
 
         // Ceza puanı (PenaltyScore)
@@ -33,7 +33,7 @@ namespace Portal.Models.USYS
         public LookupList? PlakaTuru { get; set; } // Plaka Türü ile ilişki
 
         // Anahtar kelime (KeyWord)
-        [StringLength(200)]
+
         public string? AnahtarKelime { get; set; }
 
         // Oluşturan kullanıcı (CreatedBy), User tablosu ile ilişkili olacak.
@@ -46,6 +46,9 @@ namespace Portal.Models.USYS
 
         // Güncellenme tarihi (UpdatedOn)
         public DateTime GuncellemeTarihi { get; set; }
-        
+
+        public ICollection<DenetimCeza>? DenetimCezalari { get; set; } // Ceza yönetmeliği ile ilişkili denetim cezaları
+
+
     }
 }

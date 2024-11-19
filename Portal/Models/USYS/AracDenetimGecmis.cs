@@ -13,6 +13,7 @@ namespace Portal.Models.USYS
 
         [Required]
         public int KontrolTuruId { get; set; } // Foreign Key - LookupList tablosundan alınacak (Kontrol Türü)
+        [Required]
 
         public DateTime OlusturmaTarihi { get; set; } = DateTime.Now; // Oluşturulma tarihi
 
@@ -22,6 +23,7 @@ namespace Portal.Models.USYS
 
         [ForeignKey("KontrolTuruId")]
         public LookupList KontrolTuru { get; set; } // İlişkili kontrol türü bilgisi
-        
+
+
     }
 }

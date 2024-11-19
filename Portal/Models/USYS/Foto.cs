@@ -6,11 +6,11 @@ namespace Portal.Models.USYS
 {
     public class Foto
     {
-          [Key]
+        [Key]
         public int Id { get; set; } // Benzersiz kimlik numarası (Primary Key)
 
         // Fotoğrafın benzersiz GUID değeri (DataGUID)
-        public Guid DataGuid { get; set; } 
+        public Guid DataGuid { get; set; }
 
         // Fotoğrafın binary verisi (Data)
         public byte[]? Veri { get; set; } // Fotoğraf içeriğini tutmak için byte array
@@ -20,7 +20,7 @@ namespace Portal.Models.USYS
         public string? DosyaAdi { get; set; }
 
         // Dosya türü (FileType), bu tür LookUpList'ten gelecek.
-        [ForeignKey("LookupList")]
+        [ForeignKey("DosyaTuruId")]
         public int? DosyaTuruId { get; set; }
         public LookupList? DosyaTuru { get; set; } // Dosya türü ile ilişki
 
@@ -28,8 +28,11 @@ namespace Portal.Models.USYS
         public DateTime? OlusturmaTarihi { get; set; } = DateTime.Now;
 
         // Fotoğrafı oluşturan kullanıcı bilgisi (CreatedBy)
-        [ForeignKey("Kullanici")]
+        [ForeignKey("OlusturanKullaniciId")]
         public int OlusturanKullaniciId { get; set; }
         public User OlusturanKullanici { get; set; } // Kullanıcı ile ilişki
+
+        public ICollection<AracDenetimGecmisiFotoVideo>? AracDenetimGecmisiFotoVideolari { get; set; } // Fotoğraflar koleksiyonu
+
     }
-    }
+}

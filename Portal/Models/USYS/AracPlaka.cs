@@ -5,7 +5,7 @@ namespace Portal.Models.USYS
 {
     public class AracPlaka
     {
-         [Key]
+        [Key]
         public int Id { get; set; } // Benzersiz kimlik numarası
 
         [Required]
@@ -19,17 +19,19 @@ namespace Portal.Models.USYS
         public string? SasiNumarasi { get; set; } // Şasi numarası
 
         // ForeignKey kullanımı navigation property ile tutarlı olmalıdır.
-        public int? PlakaTuruId { get; set; } // Foreign Key
+        public int? PlakaTuruId { get; set; } // Foreign Key (nullable)
+
+        [ForeignKey("PlakaTuruId")] // PlakaTuruId, LookupList ile ilişkilendirilecek FK'dir.
         public LookupList? PlakaTuru { get; set; } // Plaka türü navigasyon özelliği
 
-        public int? GuzergahId { get; set; } // Foreign Key
-        public Guzergah Guzergah { get; set; } // Güzergah navigasyon özelliği
+        public int? GuzergahId { get; set; } // Foreign Key (nullable)
 
+        [ForeignKey("GuzergahId")] // GuzergahId, Guzergah ile ilişkilendirilecek FK'dir.
+        public Guzergah Guzergah { get; set; } // Güzergah navigasyon özelliği
         // Diğer ilişkili modeller
         public ICollection<AracDenetim>? AracDenetimleri { get; set; }
         public ICollection<AracSahibi>? AracSahipleri { get; set; }
+        public ICollection<AracPlaka> AracPlakalari { get; set; }
 
-
-        
     }
 }

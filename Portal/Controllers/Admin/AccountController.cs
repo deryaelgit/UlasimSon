@@ -94,7 +94,7 @@ namespace Portal.Controllers.Admin
                         _httpContextAccessor.HttpContext.Session.SetString("UserProfileImage", string.Empty); // Veya "NoImageAvailable" gibi bir varsayılan değer
                     }
 
-                    return RedirectToAction("Index", "Home");
+                    return RedirectToAction("Index", "Denetim");
                 }
 
                 return View(model);
@@ -197,6 +197,40 @@ namespace Portal.Controllers.Admin
 
             return View(model);
         }
+
+        // GET: ForgotPassword - Kullanıcıya TC Kimlik numarasını ve yeni şifreyi girmesi için form sağlar
+[HttpGet]
+public IActionResult ForgotPassword()
+{
+    return View(new ForgotPasswordViewModel());
+}
+
+[HttpPost]
+[ValidateAntiForgeryToken]
+public IActionResult ForgotPassword(ForgotPasswordViewModel model)
+{
+    if (!ModelState.IsValid)
+    {
+        return View(model);
+    }
+
+    // TC Kimlik ile kullanıcıyı bul
+    var user = _context.Users.SingleOrDefault(u => u.TcKimlik == model.TcKimlik);
+    if (user == null)
+    {
+        ModelState.AddModelError("TcKimlik", "Bu TC Kimlik numarasına ait bir kullanıcı bulunamadı.");
+        return View(model);
+    }
+
+    // Yeni şifreyi hashle ve kaydet
+    user.Password = HashHelper.HashPassword(model.NewPassword);
+    _context.SaveChanges();
+
+    // Başarı mesajı ve yönlendirme
+    ViewBag.Message = "Şifreniz başarıyla güncellendi. Yeni şifrenizle giriş yapabilirsiniz.";
+    return RedirectToAction("Login");
+}
+
     }
 }
 

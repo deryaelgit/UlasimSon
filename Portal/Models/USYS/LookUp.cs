@@ -8,6 +8,6 @@ namespace Portal.Models.USYS
         public int Id { get; set; }
         public string? Name { get; set; }
         public ICollection<LookupList> LookUpListesi { get; set; }
-        
+
     }
 }
